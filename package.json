@@ -1,0 +1,30 @@
+{
+  "name": "k6-perfromance-testing",
+  "version": "1.0.0",
+  "description": "k6-perfromance-testing",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "webpack",
+    "test": "k6 run --out influxdb=http://localhost:8086/k6performance ./dist/test.main.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomashGombosh1/k6-perfromance-testing.git"
+  },
+  "keywords": [],
+  "author": "Tomash Gombosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomashGombosh1/k6-perfromance-testing/issues"
+  },
+  "homepage": "https://github.com/TomashGombosh1/k6-perfromance-testing#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "k6": "0.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
