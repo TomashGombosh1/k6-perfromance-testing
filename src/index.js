@@ -1,6 +1,7 @@
 import { Rate, Trend } from 'k6/metrics';
 import { check } from "k6";
 import http from 'k6/http';
+//import urls from './urls.js';
 
 const baseUrl = "https://qatestlab.com/";
 var errors = new Rate("errors");

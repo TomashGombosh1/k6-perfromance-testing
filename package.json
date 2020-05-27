@@ -25,7 +25,7 @@
     "start-200-400": "webpack && k6 run --vus 200 --duration 400s ./dist/test.main.js ",
     "start-200-500": "webpack && k6 run --vus 200 --duration 500s ./dist/test.main.js ",
     "start-500-500": "webpack && k6 run --vus 500 --duration 500s ./dist/test.main.js ",
-    "start-1000-500": "webpack && k6 run --vus 1000 --duration 500s ./dist/test.main.js ",
+    "start-1000-500": "webpack && k6 run --vus 1000 --duration 500s ./dist/test.main.js "
   },
   "repository": {
     "type": "git",
