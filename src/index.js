@@ -7,7 +7,7 @@ var errors = new Rate("errors");
 var trends = new Trend("trends");
 
 export const options = {
-    vus: 100,
+    vus: 1,
     duration: '500s',
     errorRate: [
       { 
